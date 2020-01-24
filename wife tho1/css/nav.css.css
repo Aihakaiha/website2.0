@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../imgs/bg.png");
+    background-attachment: fixed;
+}
+#phlink {
+    opacity: 0;
+    position: absolute;
+    z-index: 0;
+}
+header {
+    background-color: rgba(0,0,0,0);
+    top: 0%;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    border: 1px solid black;
+}
+#logohold {
+    padding: 0px;
+    margin: 0px;
+    height: 30px;
+    width: 300px;
+}
+#logoimg {
+    padding-top: 30px;
+    width: 50%;
+    padding-left: 180px;
+}
+nav {
+    align-items: center;
+    position: relative;
+}
+#list_hold {
+    list-style: none;
+    text-align: center;
+}
+.navigation_list {
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    transition-duration: 800ms;
+    border-radius: 5px;
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 40px;
+}
+.navigation_list:hover {
+    background-color: rgba(0,0,0,0);
+}

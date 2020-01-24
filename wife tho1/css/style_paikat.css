@@ -1,0 +1,103 @@
+#showhide {
+    opacity: 0;
+}
+#main_sektio {
+    background-color:rgba(0, 0,0,0);
+    border: 1px solid black;
+    width: 1000px;
+    height: auto;
+    margin-top: 10%;
+    left: 50%;
+    top: 50%;
+    margin-left: 25%;
+    align-items: center;
+}
+#note {
+    text-align: center;
+}
+#lontoo{
+    margin-top: 10%;
+    margin-left: 15%;
+    float: left;
+}
+#lontoo_img, #praha_img, #pietari_img, #amsterdam_img, #berliini_img {
+    width: 60%;
+    height: 60%;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+#lontoo_img:hover, #praha_img:hover, #pietari_img:hover, #amsterdam_img:hover, #berliini_img:hover {
+    opacity: 0.9;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+#caption, #praha_caption, #pietari_caption, #amsterdam_caption, #berliini_caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.modal-content, #caption, #praha_caption, #pietari_caption, #berliini_caption {
+    animation-name: zoom;
+    animation-duration: 500ms;
+}
+@keyframes zoom {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 300ms;
+}
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+    .modal-content{
+        width: 100%;
+    }
+}
+#praha{
+    margin-top: 50%;
+    margin-left: 15%;
+}
+#pietari {
+    margin-top: 0%;
+    margin-left: 15%;
+}
+#amsterdam {
+    margin-top: 0%;
+    margin-left: 15%;
+}
+#berliini {
+    margin-top: 0%;
+    margin-left: 15%;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--060 060 061 061 060 061 061 060 060 060 061 061 061 060 060 060 060 060 061 061 060 061
+         061 061 060 060 061 061 060 061 060 060 060 060 061 061 060 061 061 061 060 060 061 061
+          060 061 060 060 060 060 061 061 060 061 061 061 060 060 061 061 060 060 060 060 060 060
+           061 061 060 061 061 061 060 060 061 061 060 060 061 061 060 060 061 061 060 060 061 061
+            060 061 061 060 060 060 060 061 060 060 061 061 060 060 061 060 060 061 061 060 060 061
+             061 060 060 060 061 061 060 060 061 060 060 061 061 060 060 061 061 060 060 060 061 061
+              060 061 061 061 060 060 061 061 060 060 060 060 060 060 061 061 060 061 061 060 060 061
+               061 060 060 061 061 060 060 060 061 061 060 061 061 061 060 060 061 061 060 060 061 060
+                060 060 061 061 060 061 061 060 060 061 061 060 060 061 060 061 060 060 061 061 060 061
+                 061 060 060 060 061 061 061 060 060 060 060 060 061 061 060 061 061 061 060 060 061 061
+                  060 061 060 061 060 060 061 061 060 061 061 060 060 060 061 061 060 060 061 060 060 060
+                   061 061 060 060 061 060 060 061 061 060 060 061 060 061 060 060 061 061 060 061 061 060
+                    060 060 061 061 060 060 061 061 060 060 061 061 060 061 061 060 060 061 061 060 060 061
+                     061 060 060 060 061 061 060 061 061 060 060 061 061 060 060 061 060 060-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style_index.css">
+    <link rel="stylesheet" href="../css/nav.css.css">
+    <script src="../scripts/logo.js"></script>
+    <script src="../scripts/stressbutton.js"></script>
+    <script src="../scripts/buttonshow.js"></script>
+    <title>VED matkaryhmä</title>
+</head>
+<body>
+    <a id="phlink" href="../A/B/C/D/E/F/G/H/A.html" target="_blank">Yes</a>
+    <header>
+        <section id="logohold">
+            <img onclick="logoclick()" id="logoimg" src="../imgs/Wife.png" alt="">
+        </section>
+        <nav>
+            <ul id="list_hold">
+                <a href="index.html"><li class="navigation_list">Koti</li></a>
+                <a href="./paikat.html"><li class="navigation_list">paikat</li></a>
+            </ul>
+            <button id="showhide" onclick="show()">show/hide</button>
+        </nav>
+    </header>
+    <section id="vasen-sektio">
+        <img id="kuvva" src="../imgs/justsome.jpg" alt="">
+        <h2 style="margin-left: 30px;">Tervetuloa VEDryhmän sivulle</h2>
+        <p style="text-align: left; margin-left:30px;font-size: 17;">Tämä sivu kertoo kolmen oppilaan (Valtteri, Elias, Daniel) matkakohteista ja kokemuksista.</br></p>
+        <h2 style="margin-left: 30px;">Meistä</h2>
+        <p style="text-align: left; margin-left: 30px; font-size: 17;">Me kaikki tavattiin koulussa ja ollaan siitä lähtien vibattu luokis, ollaan semmone vitun koominen kolmio.</br>
+        Ollaan niinkuin oma holy trinity hullu, masentunu, Koomikko</br>
+        Daniel on masentunut, Valtteri on koommikko ja Elias on hullu.</p>
+        <img style="float: right;" src="../imgs/trinity.png" alt="holy trinity 2.0">
+    </section>
+            <aside id="index-aside">
+                <p>Stressi nappula</p>
+                <h2 id="stressh">0</h2>
+                <button onclick="stress()">+1</button>
+                <input id="stressbutton-input" type="text" placeholder="+">
+                <p>Pistä numero kenttään ja kato mitä tapahtuu!</p>
+                <p>Voit pistää negatiivisen numeron</p>
+                <p>(Jos et pistä kenttään numeroa niin se on automaattisesti 1)</p>
+            </aside>
+    <footer id="jalka">
+        <article id="dan">
+            <p class="pp">daniel@gmail.com</p></br>
+            <p class="pp">Sarviniitynkatu 10</p></br>
+            <p class="pp">045 1953258</p>
+        </article>
+        <article id="valtsu">
+            <p class="pp">valtteri@gmail.com</p></br>
+            <p class="pp">Palokuja 3</p></br>
+            <p class="pp">045 9657251</p>
+        </article>
+        <article id="ellu">
+            <p class="pp">sivonen.elias@gmail.com</p></br>
+            <p class="pp">Vanhatie 24</p></br>
+            <p class="pp">045 1671350</p>
+        </article>
+    </footer>
+</body>
+</html>
